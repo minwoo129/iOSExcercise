@@ -13,6 +13,8 @@
 		A395B0282815625C002074FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A395B0262815625C002074FD /* Main.storyboard */; };
 		A395B02A2815625D002074FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A395B0292815625D002074FD /* Assets.xcassets */; };
 		A395B02D2815625D002074FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A395B02B2815625D002074FD /* LaunchScreen.storyboard */; };
+		A395B03628156321002074FD /* lamp_off.png in Resources */ = {isa = PBXBuildFile; fileRef = A395B03428156321002074FD /* lamp_off.png */; };
+		A395B03728156321002074FD /* lamp_on.png in Resources */ = {isa = PBXBuildFile; fileRef = A395B03528156321002074FD /* lamp_on.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		A395B0292815625D002074FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A395B02C2815625D002074FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A395B02E2815625D002074FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A395B03428156321002074FD /* lamp_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lamp_off.png; sourceTree = "<group>"; };
+		A395B03528156321002074FD /* lamp_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lamp_on.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				A395B0202815625C002074FD /* AppDelegate.swift */,
+				A395B03428156321002074FD /* lamp_off.png */,
+				A395B03528156321002074FD /* lamp_on.png */,
 				A395B0222815625C002074FD /* SceneDelegate.swift */,
 				A395B0242815625C002074FD /* ViewController.swift */,
 				A395B0262815625C002074FD /* Main.storyboard */,
@@ -127,7 +133,9 @@
 			files = (
 				A395B02D2815625D002074FD /* LaunchScreen.storyboard in Resources */,
 				A395B02A2815625D002074FD /* Assets.xcassets in Resources */,
+				A395B03728156321002074FD /* lamp_on.png in Resources */,
 				A395B0282815625C002074FD /* Main.storyboard in Resources */,
+				A395B03628156321002074FD /* lamp_off.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
