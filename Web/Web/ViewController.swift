@@ -45,12 +45,15 @@ class ViewController: UIViewController, WKNavigationDelegate {
     }
 
     @IBAction func btnGotoUrl(_ sender: UIButton) {
+        
     }
     
     @IBAction func btnGotoSite1(_ sender: UIButton) {
+        loadWebPage("http://fallinmac.tistory.com")
     }
     
     @IBAction func btnGotoSite2(_ sender: UIButton) {
+        loadWebPage("http://blog.2sam.net")
     }
     
     @IBAction func btnLoadHtmlString(_ sender: UIButton) {
