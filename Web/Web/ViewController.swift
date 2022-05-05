@@ -13,9 +13,16 @@ class ViewController: UIViewController {
     @IBOutlet var myWebView: WKWebView!
     @IBOutlet var myActivityIndicator: UIActivityIndicatorView!
     
+    func loadWebPage(_ url: String) {
+        let myUrl = URL(string: url)
+        let myRequest = URLRequest(url: myUrl!)
+        myWebView.load(myRequest)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        loadWebPage("http://2sam.net")
     }
 
     @IBAction func btnGotoUrl(_ sender: UIButton) {
